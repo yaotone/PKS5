@@ -1,0 +1,16 @@
+﻿@model List<Prepod>
+
+<table class="table table-dark table-hover">
+	<tr><th>ФИО</th><th>Название дисциплины</th><th>Название кафедры</th></tr>
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@item.FirstName @item.SecondName @item.ThirdName
+			</td>
+			<td>@item.Subject</td>
+			<td>@item.Cafedra</td>
+		</tr>
+	}
+
+</table>

@@ -1,0 +1,11 @@
+﻿@model SortResponse
+
+<form asp-action="ViewOlimps" asp-controller="Authorized">
+    <label asp-for="choosen_vid"></label>
+    <select asp-for="choosen_vid">
+        <option value="sport">Спорт</option>
+        <option value="learn">учеба</option>
+        <option value="science">наука</option>
+    </select>
+    <button type="submit">Фильтровать</button>
+</form>

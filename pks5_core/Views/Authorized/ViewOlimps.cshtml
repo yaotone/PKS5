@@ -1,0 +1,5 @@
+﻿@model Tuple<SortResponse, List<Olimps>>
+
+@await Html.PartialAsync("Sort", Model.Item1);
+@await Html.PartialAsync("TableOlimps", Model.Item2);
+

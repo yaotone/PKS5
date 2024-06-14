@@ -1,0 +1,5 @@
+﻿@model Tuple<SearchResponse, List<Mark>>
+
+@await Html.PartialAsync("Search", Model.Item1);
+@await Html.PartialAsync("MarksTable", Model.Item2);
+

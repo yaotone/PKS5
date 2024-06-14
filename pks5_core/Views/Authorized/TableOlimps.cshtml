@@ -1,0 +1,16 @@
+﻿@model List<Olimps>
+
+<table class="table table-dark table-hover">
+	<tr><th>Дата</th><th>Вид</th><th>Описание</th></tr>
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@item.Date
+			</td>
+			<td>@item.Vid</td>
+			<td>@item.Opis</td>
+		</tr>
+	}
+
+</table>

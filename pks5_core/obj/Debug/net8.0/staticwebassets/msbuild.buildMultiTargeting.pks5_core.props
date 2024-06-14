@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/pks5_core.props" />
+</Project>

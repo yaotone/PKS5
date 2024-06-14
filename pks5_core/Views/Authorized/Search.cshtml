@@ -1,0 +1,7 @@
+﻿@model SearchResponse
+
+<form asp-action="ViewMarks" asp-controller="Authorized">
+    <label asp-for="search_string"></label>
+    <input type="text" asp-for="search_string" />
+    <button type="submit">Поиск</button>
+</form>
